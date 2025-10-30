@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 version: '3.8'
 
 services:
   esp32-dev:
     image: espressif/idf:latest
     container_name: esp32-lab7
+=======
+services:
+  esp32-dev:
+    image: espressif/idf:latest
+    container_name: esp32-lab6-1
+>>>>>>> 1a422ad4b7d2e0abdac0dde31034da05a2a49346
     volumes:
       - .:/project
     working_dir: /project
@@ -17,4 +24,8 @@ services:
 
 networks:
   esp32-network:
+<<<<<<< HEAD
     driver: bridge
+=======
+    driver: bridge
+>>>>>>> 1a422ad4b7d2e0abdac0dde31034da05a2a49346
